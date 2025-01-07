@@ -9,7 +9,7 @@ To run Film Scan Converter, you'll need Python 3.10 or newer installed on your s
 2. Install [Git](https://git-scm.com/) if you haven't already.
 3. Clone the repository:
    ```
-   git clone https://github.com/username/Film-Scan-Converter.git
+   git clone https://github.com/jwrossee/Film-Scan-Converter
    cd Film-Scan-Converter
    ```
 4. Create and activate a virtual environment:
