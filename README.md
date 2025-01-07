@@ -3,12 +3,37 @@ A standalone application used for processing RAW film scans from a digital camer
 ![image](https://github.com/user-attachments/assets/ed4f2e61-0fa0-404f-bdea-c34ea1925662)
 
 # Installation
-If you do not have Python installed, you can simply download and run the Windows executable below:  
-[Download Link](https://www.dropbox.com/scl/fi/zq8qo2jtjipaxj235cg45/Film-Scan-Converter.exe?rlkey=qa9fkiy7h1svsi9ixnrz83pg5&e=2&st=43ddm53m&dl=0)
+To run Film Scan Converter, you'll need Python 3.10 or newer installed on your system. Follow these steps:
 
-It's not a virus, but Windows might warn you about running an unsigned app. Do your due diligence and scan the file using your preferred anti-malware program before trying to run it.
+1. [Install Python 3.10 or newer](https://www.python.org/downloads/) if you haven't already.
+2. Install [Git](https://git-scm.com/) if you haven't already.
+3. Clone the repository:
+   ```
+   git clone https://github.com/username/Film-Scan-Converter.git
+   cd Film-Scan-Converter
+   ```
+4. Create and activate a virtual environment:
+   - On macOS and Linux:
+     ```
+     python3 -m venv venv
+     source venv/bin/activate
+     ```
+   - On Windows:
+     ```
+     python -m venv venv
+     venv\Scripts\activate
+     ```
+4. Install the required dependencies:
+   ```
+   pip install -r requirements.txt
+   ```
+5. Run the application:
+   - On macOS and Linux: Execute `python "Film-Scan-Converter.py"` in your terminal.
+   - On Windows: Run `python "Film-Scan-Converter.pyw"` in your command prompt.
 
-If you want to run it on a different platform (e.g. MacOS) or you still have security concerns around running a random EXE you downloaded from the internet, you will need to [install Python 3.10 or newer](https://www.python.org/downloads/), download the source files, install the dependant libraries, and run the "Film Scan Converter.pyw" file with Python.
+Note: Always activate the virtual environment before running the application.
+
+Note: For other operating systems, you may need to adapt the commands slightly, but the general process remains the same.
 
 # Scanning Best Practices
 Having consistent, high quality scans will go a long way to maximize the effectiveness of this application. For best results, ensure the following during scanning:

@@ -1,0 +1,52 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+
+# Virtual Environment
+venv/
+env/
+ENV/
+.env
+.venv
+
+# IDE specific files
+.idea/
+.vscode/
+*.swp
+*.swo
+.DS_Store
+
+# Project specific
+*.npy  # Numpy data files used by the project
+*.raw  # RAW image files
+*.dng  # DNG image files
+*.cr2  # Canon RAW files
+*.nef  # Nikon RAW files
+*.arw  # Sony RAW files
+*.raf  # Fujifilm RAW files
+*.erf  # Epson RAW files
+*.gpr  # GoPro RAW files
+*.crw  # Canon RAW files
+*.tif  # TIFF files
+*.tiff # TIFF files
+*.jpg  # JPEG files
+*.jpeg # JPEG files
+*.png  # PNG files
